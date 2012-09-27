@@ -226,6 +226,8 @@ GEM
       railties (>= 3.0)
       rspec (~> 2.11.0)
     rubyzip (0.9.9)
+    rvm-capistrano (1.2.7)
+      capistrano (>= 2.0.0)
     sass (3.1.20)
     sass-rails (3.2.5)
       railties (~> 3.2.0)
@@ -270,6 +272,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   capistrano
   capybara
   coffee-rails
@@ -300,6 +303,7 @@ DEPENDENCIES
   rails (= 3.2.8)
   rb-fsevent
   rspec-rails
+  rvm-capistrano
   sass-rails
   spork
   sqlite3-ruby
